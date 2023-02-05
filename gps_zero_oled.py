@@ -67,7 +67,7 @@ uartSerial = UART(1, baudrate=9600, tx=Pin(4), rx=Pin(5), timeout=50)
 # SD1306 OLED 128x64 using GP20/21 I2C0
 i2c=I2C(1,sda=Pin(2), scl=Pin(3), freq=400000)
 oled = SSD1306_I2C(128, 64, i2c)
-oled.rotate(2)  # Rotate 180 degrees
+oled.rotate(1)  # Rotate 180 degrees
 
 pinExit = Pin(8, Pin.IN, Pin.PULL_UP)
 
