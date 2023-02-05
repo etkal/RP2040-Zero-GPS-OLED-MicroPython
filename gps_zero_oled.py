@@ -110,7 +110,7 @@ def convertToDecimalDegree(DegreeMinutes):
     nextTwo = FloatValue - float(firstDigits*100)
     
     Result = float(firstDigits + nextTwo/60.0)
-        Result = '{0:.4f}'.format(Result)
+    Result = '{0:.4f}'.format(Result)
     return str(Result)
 
 # Check formatting and checksum of received sentence
